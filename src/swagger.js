@@ -15,7 +15,7 @@ const options = {
                 description: "Local server",
             },
             {
-                url: "https://project-managemeant-nodejs.onrender.com",
+                url: "https://mangement-gym.onrender.com",
                 description: "Production server",
             },
         ],
