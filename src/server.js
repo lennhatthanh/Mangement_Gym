@@ -10,8 +10,8 @@ connectDB()
 const app = express();
 app.use(cors())
 app.use(express.json())
-app.use("/api/members", memberRouter);
-app.use("/api/coachs", coachRouter);
+app.use("/api/member", memberRouter);
+app.use("/api/coach", coachRouter);
 swaggerDocs(app)
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
